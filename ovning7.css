@@ -1,0 +1,39 @@
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    text-align: center; /* Center-align text */
+}
+
+header, section, footer {
+    margin: 20px auto; /* Centering elements */
+    max-width: 800px; /* Limiting width */
+}
+
+header img {
+    display: block; /* Center image */
+    margin: 0 auto; /* Center image */
+}
+
+.information, .video, .links {
+    background-color: #101010; /* Dark background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Display links horizontally */
+    justify-content: center; /* Center links */
+}
+
+.links li {
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text */
+    padding: 20px;
+    height: 50px; /* Set footer height */
+}
